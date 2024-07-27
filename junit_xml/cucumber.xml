@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="20.357" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="Free CRM Application Test" name="Validate Free CRM Home Page Test" time="20.079">
+<testsuite name="Cucumber" time="34.047" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Free CRM Application Test" name="Validate Free CRM Home Page Test" time="33.677">
 <system-out><![CDATA[
 Given User opens browser....................................................passed
 Then User is on Login Page..................................................passed

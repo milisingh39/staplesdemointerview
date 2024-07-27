@@ -40,6 +40,7 @@ public class HomePageSteps extends TestBase{
 	public void validate_logged_in_username() {
 	   boolean usernm= homepage.verifyCorrectUserNamee();
 	   Assert.assertTrue(usernm);
+	   driver.quit();
 	}
 
 
