@@ -13,31 +13,17 @@ import io.cucumber.junit.*;
 
 
 //@RunWith(Cucumber.class)
-@CucumberOptions(
-		features = "C:\\Users\\ANGEL\\eclipse-workspace\\MyprojectFrame\\src\\main\\java\\qa\\features" 
-                            ,glue = {"qa/stepDefinitions"},
+@CucumberOptions(features = {"C:\\Users\\ANGEL\\eclipse-workspace\\InterviewStaples\\src\\main\\java\\qa\\features\\Registrationbooking.feature"},
+                            glue = {"qa/stepDefinitions"},
                             plugin = {"pretty","html:target/cucumber-report","json:target/cucumber-json","junit:junit_xml/cucumber.xml"}, 
-                            monochrome = false,
-
+                            monochrome = true,
                             dryRun = false
                             )
 
 //
 
 public class TestRunner extends AbstractTestNGCucumberTests{
-//   private TestNGCucumberRunner testNGCucumberRunner;
-//	
-//	@BeforeClass(alwaysRun = true)
-//	public void SetUpClass() throws Exception{
-//		testNGCucumberRunner =new TestNGCucumberRunner(this.getClass());
-//		
-//	}
-//	
-//	@Test(groups="Cucumber", description ="Runs Cucumber Feature", dataProvider="features")
-//	public void feature(CucumberFeatureWrapper cucumberfeature) {
-//		
-//		testNGCucumberRunner.runCucumber(cucumberfeature.getCucumberFeature());
-//	}
+
 	
 	 @DataProvider(parallel =true)
 	    public Object[][] scenario(){
