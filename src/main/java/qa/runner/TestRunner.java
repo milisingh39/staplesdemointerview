@@ -13,7 +13,8 @@ import io.cucumber.junit.*;
 
 
 //@RunWith(Cucumber.class)
-@CucumberOptions(features = {"C:\\Users\\ANGEL\\eclipse-workspace\\InterviewStaples\\src\\main\\java\\qa\\features\\Registrationbooking.feature"},
+@CucumberOptions(features = {"C:\\Users\\ANGEL\\eclipse-workspace\\InterviewStaples\\src\\main\\java\\qa\\features\\Login.feature",
+		"C:\\Users\\ANGEL\\eclipse-workspace\\InterviewStaples\\src\\main\\java\\qa\\features\\Registrationbooking.feature"},
                             glue = {"qa/stepDefinitions"},
                             plugin = {"pretty","html:target/cucumber-report","json:target/cucumber-json","junit:junit_xml/cucumber.xml"}, 
                             monochrome = true,
